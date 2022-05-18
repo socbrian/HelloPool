@@ -11,3 +11,5 @@ arch:
   - i386
 ports:
   8000/tcp: 8000
+network:
+  8000/TCP: The webserver port (Not used for Ingress)
