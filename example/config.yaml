@@ -10,4 +10,4 @@ arch:
   - armv7
   - i386
 ports:
-  8000/tcp: 8000
+  8008/tcp: 8008
