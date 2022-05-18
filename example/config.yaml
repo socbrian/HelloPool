@@ -9,5 +9,16 @@ arch:
   - armhf
   - armv7
   - i386
-ports:
-  8008/tcp: 8008
+options:
+#  mqtt_url: 'mqtt://auto_username:auto_password@auto_hostname'
+#  mqtt_options: ''
+  user: ''
+  password: ''
+#  disarm_code: ''
+#  enable_cameras: true
+#  enable_modes: false
+#  enable_panic: false
+#  branch: addon
+#  debug: ring-*
+#  location_ids:
+    - ''
