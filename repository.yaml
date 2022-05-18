@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
 name: PoolSync Hello World
 url: 'https://github.com/socbrian/HelloPool'
-maintainer: Brian Eswood <awesome@example.com>
+maintainer: Brian Eswood <socbrian@gmail.com>

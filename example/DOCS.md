@@ -2,7 +2,7 @@
 
 ## How to use
 
-This add-on really does EVERYTHING. It is just an example.
+This add-on really does EVERYTHING+++. It is just an example.
 
 When started it will print the configured message or "Hello world" in the log.
 
