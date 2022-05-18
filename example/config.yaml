@@ -1,6 +1,6 @@
 name: "Hello world"
 description: "My first real add-on!"
-version: "1.1.0"
+version: "1.1.1"
 slug: "poolsync"
 init: false
 arch:
@@ -11,5 +11,3 @@ arch:
   - i386
 ports:
   8000/tcp: 8000
-network:
-  8000/TCP: The webserver port (Not used for Ingress)
