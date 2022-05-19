@@ -1,5 +1,6 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
+FROM python:latest
 
 # Install requirements for add-on
 RUN \
