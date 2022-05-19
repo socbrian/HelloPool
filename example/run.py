@@ -15,7 +15,6 @@ response = requests.request("GET", url, headers=headers, data=payload)
 print(response.text)
 
 
-
 # python 3.6
 
 import random
@@ -29,8 +28,10 @@ port = 1883
 topic = "PoolSync"
 # generate client ID with pub prefix randomly
 client_id = f'python-mqtt-{random.randint(0, 1000)}'
-username = config.get('user', None)
-password = config.get('password', None)
+
+## Need to get this to work with config file
+#username = config.get('user', None)
+#password = config.get('password', None)
 
 
 
