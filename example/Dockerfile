@@ -11,9 +11,9 @@ RUN \
 WORKDIR /data
 
 # Copy data for add-on
-COPY run.sh /
+#COPY run.sh /
 COPY apimqtt.py /data/
-RUN chmod a+x /run.sh
+#RUN chmod a+x /run.sh
 RUN chmod 755 /data/apimqtt.py
 
-CMD [ "/run.sh" ]
+CMD python3 /data/apimqtt.py
