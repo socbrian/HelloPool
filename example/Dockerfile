@@ -14,6 +14,6 @@ WORKDIR /data
 COPY run.sh /
 COPY apimqtt.py /data/
 RUN chmod a+x /run.sh
-RUN chmod 755 /apimqtt.py
+RUN chmod 755 /data/apimqtt.py
 
 CMD [ "/run.sh" ]
