@@ -1,6 +1,6 @@
-echo "Shell scrupt running"
+echo "Shell script running"
 pwd
-ls -
+ls 
 cd /data
 ls
 
