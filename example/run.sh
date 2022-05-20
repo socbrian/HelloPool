@@ -1,3 +1,4 @@
 echo "Shell scrupt running"
+pwd
 
-python3 apimqtt.py
+python3 /data/apimqtt.py
