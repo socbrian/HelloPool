@@ -1,6 +1,6 @@
 name: "Hello world"
 description: "My first real add-on!"
-version: "0.7"
+version: "0.8"
 slug: "poolsync"
 init: false
 arch:
